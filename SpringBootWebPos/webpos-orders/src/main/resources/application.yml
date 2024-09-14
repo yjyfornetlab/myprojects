@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: orders-service
+  datasource:
+    url: jdbc:h2:file:./data/ordersDB;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    # generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8083
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8088/eureka
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}

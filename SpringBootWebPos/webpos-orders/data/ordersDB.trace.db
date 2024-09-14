@@ -1,0 +1,210 @@
+2024-06-15 15:56:46.976561+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 15:56:46.999691+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 15:56:47.014616+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 15:59:00.228127+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 15:59:00.246039+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 15:59:00.258055+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 15:59:27.866814+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 15:59:27.898900+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 15:59:27.921411+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:00:24.418970+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:00:24.437977+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:00:24.448996+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:01:36.313706+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:01:36.357121+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:01:36.388188+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:11:10.123558+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:11:10.161219+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:11:10.191127+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:11:37.123817+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:11:37.163519+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:11:37.193721+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:12:33.654220+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:12:33.690827+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:12:33.719855+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:16:45.006242+08:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:16:45.039940+08:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:16:57.518737+08:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, primary key (id)) [42001-224]
+2024-06-15 16:16:57.527514+08:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:17:12.006285+08:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:17:12.019468+08:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:17:12.113698+08:00 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:17:12.120270+08:00 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:17:56.820623+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:17:56.856701+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:18:30.643998+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:18:30.677012+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:18:30.713572+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:19:45.534126+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:19:45.573710+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:32:09.446075+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:32:09.485006+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:32:48.199287+08:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:32:48.218197+08:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 16:33:37.562120+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 16:33:37.607736+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 16:33:37.657339+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 17:49:23.780020+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 17:49:23.795039+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table item (id integer generated by default as identity, [*]order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table item (id integer generated by default as identity, order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id)) [42001-224]
+2024-06-15 17:49:23.805027+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 17:49:23.814029+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+alter table if exists order_items add constraint FK3pp5kjry2wwflflyy0duy243f foreign key (items_id) references item [42102-224]
+2024-06-15 17:49:23.821537+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 17:52:36.311537+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 17:52:36.349815+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table item (id integer generated by default as identity, [*]order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table item (id integer generated by default as identity, order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id)) [42001-224]
+2024-06-15 17:52:36.367129+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 17:52:36.391684+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+alter table if exists order_items add constraint FK3pp5kjry2wwflflyy0duy243f foreign key (items_id) references item [42102-224]
+2024-06-15 17:52:36.413274+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 17:53:06.708329+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 17:53:06.738686+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table item (id integer generated by default as identity, [*]order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table item (id integer generated by default as identity, order integer, product_id integer, product_price float(53) not null, quantity integer not null, product_name varchar(255), primary key (id)) [42001-224]
+2024-06-15 17:53:06.752091+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 17:53:06.771739+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+alter table if exists order_items add constraint FK3pp5kjry2wwflflyy0duy243f foreign key (items_id) references item [42102-224]
+2024-06-15 17:53:06.787059+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 17:59:41.123515+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 17:59:41.144196+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 17:59:41.161295+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 17:59:57.066182+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 17:59:57.089529+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 17:59:57.106503+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-06-15 18:03:15.310703+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-06-15 18:03:15.349668+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer generated by default as identity, primary key (id)) [42001-224]
+2024-06-15 18:03:15.393160+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]

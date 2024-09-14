@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: products-service
+  datasource:
+    url: jdbc:h2:file:../batch-processing/data/webposDB;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8088/eureka
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}

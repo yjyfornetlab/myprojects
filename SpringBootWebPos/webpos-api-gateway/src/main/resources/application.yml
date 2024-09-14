@@ -1,0 +1,55 @@
+zuul:
+  prefix: /api
+  ignoredServices: '*'
+  routes:
+    products-service: /products/**
+    carts-service: /carts/**
+    counter-service: /counter/**
+    orders-service: /orders/**
+    api-gateway: /gateway/**
+
+server:
+  port: 0
+  compression:
+    enabled: true
+    mime-types: application/json,text/css,application/javascript
+    min-response-size: 2048
+
+spring.messages.basename: messages/messages
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8088/eureka
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: products-service
+          uri: lb://products-service
+          predicates:
+            - Path=/api/products/**
+          filters:
+            - StripPrefix=2
+        - id: carts-service
+          uri: lb://carts-service
+          predicates:
+            - Path=/api/carts/**
+          filters:
+            - StripPrefix=2
+        - id: counter-service
+          uri: lb://counter-service
+          predicates:
+            - Path=/api/customer/**
+          filters:
+            - StripPrefix=2
+        - id: orders-service
+          uri: lb://orders-service
+          predicates:
+            - Path=/api/customer/**
+          filters:
+            - StripPrefix=2
+
